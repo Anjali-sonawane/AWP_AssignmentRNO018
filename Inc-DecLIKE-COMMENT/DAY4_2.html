@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js demo</title>
+<script src="4.js"></script>
+
+<style>
+    .myclass{
+                     
+                     height: 250px;
+                     background:white;
+                     margin-bottom: 8px;
+                     margin: 8px;
+    } 
+ 
+ </style>
+<script src="5.js"></script>
+
+
+
+
+</head>
+<body>
+    
+    <div style=" display: flex;
+    flex-direction:row;
+    align-items: center;
+    background:teal ;
+    width: 45vh;
+    ">
+
+
+    <div class="myclass">
+        <img src="ga3.jpg"
+        alt=""
+        style="height:200px;width: 250px; object-fit: cover;">  
+        <div style="text-align: center;
+                font-size: 40px;">
+        Art Gallry</div>      
+
+        </div>    
+    </div>
+
+
+
+
+
+    <button style="color:brown;
+    font-size: 20px;
+    width: 45vh;
+    background: cadetblue;
+    font-family: 'Courier New', Courier, monospace;"
+    class="abc"
+    id="1"
+    onclick="click_function()">
+click for more information
+
+</button>
+
+
+<div>
+    <button
+      onclick="increment()"
+      style="font-size: 21px; padding: 8px; margin-right: 10px ; width: 20vh;"
+    >
+      Like
+    </button>
+ 
+    <button
+      onclick="decrement()"
+      style="font-size: 21px; padding: 8px; width: 20vh;"
+    >
+      Dislike
+    </button>
+
+  </div>
+  <div style="font-size: 30px;" id="counterid">
+    1
+  </div>
+</body>
+</html>
